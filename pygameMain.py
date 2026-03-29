@@ -22,7 +22,7 @@ while running:
     z -= 1
     target = pygame.Rect(z, 0, 160, 180)
     collision = hitbox.colliderect(target)
-    pygame.draw.rect(screen, (255 * collision, 255, 0), target)
+    pygame.draw.rect(screen, (46 * collision, 220, 128), target)
 
     keys = pygame.key.get_pressed()
     y += 2
